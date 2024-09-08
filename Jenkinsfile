@@ -9,13 +9,14 @@ pipeline {
         }
         stage('Test') { 
             steps {
-               sh 'sudo service nginx status'
-               sh 'sudo service jenkins status'
+                sh 'curl localhost:8080'
+                sh 'curl localhost:80'
             }
         }
         stage('Deploy') { 
             steps {
                sh 'docker ps'
+               sh 'aws sts get-caller-identity'
             }
         }
     }
