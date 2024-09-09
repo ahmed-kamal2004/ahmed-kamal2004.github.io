@@ -32,18 +32,13 @@ a:hover {
     color: black;
 }
 
-p {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
 
-ul {
+.nav-ul {
     list-style-type: none;
     display: flex;
 }
 
-li {
+.nav-li {
     width: 100%;
     margin: 0.5%;
     align-self: center;
@@ -51,13 +46,10 @@ li {
     background-color: black;
     border-radius: 8px;
     border-style: none;
-    /* border-top: 0%;
-    border-bottom: 1%;
-    border-color: black; */
     color: white;
 }
 
-li:hover {
+.nav-li:hover {
     background-color: white;
     color: black;
 }
@@ -142,8 +134,11 @@ li:hover {
 
 
 .About {
-    margin-top: 1%;
-    padding: 5%;
+    /* margin-top: 1%; */
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    padding-left: 5%;
     background: whitesmoke;
 }
 
@@ -159,6 +154,13 @@ li:hover {
     align-items: center;
     align-self: center;
 }
+
+.about-ul {
+    list-style-type: none;
+}
+
+.about-li {}
+
 
 .my-image {
     background-color: coral;
