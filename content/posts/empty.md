@@ -3,12 +3,12 @@ title: "Test empty post"
 subtitle: ""
 date: 2021-05-02T16:10:38+08:00
 draft: false
-author: ""
+author: "Ahmed Kamal"
 authorLink: ""
 description: ""
 
-tags: []
-categories: []
+tags: [Memory]
+categories: [Memory]
 series: [Test, Another Test]
 
 hiddenFromHomePage: false
@@ -23,3 +23,4 @@ math:
   enable: false
 lightgallery: false
 ---
+Hello, my first article
